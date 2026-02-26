@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <img src="emoji1.jpg" alt="memoji"
+   width="550px" height="550px"/>  
+
+
+   
+   <a href="https://www.youtube.com/?app=desktop&hl=tr">
+     <img src="emoji1.jpg" 
+     width="550px" height="550px" alt="sayfaya git">
+    </a> 
+
+
+
+     <table border="1">         
+        <thead>
+          <tr>
+            <th>ÖğrenciNo</th>
+            <th>Ad Soyad</th>
+            <th>Cinsiyet</th>
+          </tr>
+        </thead>
+        <tbody>
+            <td>2411081048</td>
+            <td>hatice mikasa</td>
+            <td rowspan="2">kız</td>
+            </tr>
+            </tr>
+            <tr>
+            <td>2411081049</td>
+            <td>sümeyye mikasa</td>          
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Toplam:2 kişi</td>
+            </tr>
+        </tfoot>
+     </table> 
+
+     <form>
+
+        <!-- email girişleri için -->
+        <label for="email">Email Adresi</label>
+        <input type="email" name="email" id="email"/>
+        <br>
+        <br>
+        
+        <!-- metinsel girişler için -->
+        <label for="username">kullanıcı adı</label>
+        <input type="text" name="username" id="username"/>
+        <br>
+        <br>
+
+        <!-- şifre girişleri için -->
+        <label for="password">şifre</label>
+        <input type="password" name="password" id="password"/>
+        <br>
+        <br>
+
+
+        <!-- tarih girişleri için (hem tarih hem saat için)-->
+        <label for="date">Doğum Tarihi</label>
+        <input type="datetime-local" name="date" id="date"/>
+        <br>
+        <br>
+
+
+        <!-- renk girişleri için -->
+        <label for="color">en sevdiğin renk</label>
+        <input type="color" name="color" id="color"/>
+        <br>
+        <br>
+
+        
+        <!-- onay kutusu için -->
+        <input type="checkbox" name="check" id="check">
+        <label for="check">şartları kabul ediyorum</label>
+        <br>
+        <br>
+
+        <input type="radio" name="radio" id="erkek">
+        <label for="erkek">erkek</label>
+        
+        <input type="radio" name="radio" id="kız">
+        <label for="kız">kız</label>
+        <br>
+        <br>
+
+        <label for="gizlenmişMetin">gizli</label>
+        <input type="hidden" value="html" id="gizlenmişMetin"/>
+        <br>
+        <br>
+
+        <!-- Dosya Yükleme --> 
+        <input type="file" name="dosya" accept=".pdf,.jpg">
+     </form>
+
+
+</body>
+
+
+</html>
